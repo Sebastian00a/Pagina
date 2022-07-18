@@ -1,0 +1,52 @@
+body{
+   background-image: url(../img/spantalla-de-colores-576x1024.jpg);
+}
+
+
+.conteinertex{
+	 display: flex;
+	 width: 300px;
+    height: 40px;
+    color: #fff;
+    font-size: 40px;
+    line-height: 40px;
+    
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+
+    overflow: hidden;
+
+}
+
+ul{
+	list-style: none;
+	animation: cambiar 6s infinite;
+	padding-left: 10px;
+}
+
+ul,p{
+	margin: 0;
+}
+
+@keyframes cambiar{
+   0%{ margin-top: 0;}
+   20%{ margin-top: 0;}
+
+   25%{margin-top: -40px;}
+   50%{margin-top: -40px;}
+   
+   55%{margin-top: -80px;}
+   80%{margin-top: -80px;}
+   
+   85%{margin-top: -40px;}
+   85%{margin-top: -40px;}
+   
+   100%{margin-top: 0;}
+
+
+
+}
